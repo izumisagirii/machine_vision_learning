@@ -1,0 +1,51 @@
+%YAML:1.0
+#桶高度
+col_height: 300
+#雷达中心离地面
+height: 771.15
+#稍矮桶，中间桶，定桶距地面高度
+h_l: 200
+h_h: 400
+h_s: 120
+#雷达到mcl：坐标系参见livox手册
+lidar_x: 376.49
+lidar_y: 0
+#聚类参数
+CLUSTER_TOLERANCE: 60
+MIN_CLUSTER_SIZE: 20
+#RANSANC拟合参数
+ACCEPT_SIZE: 100000
+ACCEPT_R_L: 145
+ACCEPT_R_H: 157
+RNCDT: 5
+#点云大小，/100000=s
+CLOUD_SIZE: 48000
+#启动时的坐标和角度
+startx: 650
+starty: 650
+startyaw: -900
+#lidar到cam转，坐标系为通常的相机坐标系
+lidar2camx: 0
+lidar2camy: -60.0
+lidar2camz: 24.0
+camera_factor : 1  #相机参数
+camera_cx : 639.8937
+camera_cy : 511.7696
+camera_fx : 1309.3
+camera_fy : 1306.4
+#hsv参数
+R_low_H: 5
+R_low_S: 80
+R_low_V: 20
+R_high_H: 170
+R_high_S: 255
+R_high_V: 255
+B_low_H: 105
+B_low_S: 60
+B_low_V: 30
+B_high_H: 115
+B_high_S: 255
+B_high_V: 255
+#曝光
+EXPOSURE: 5000
+
